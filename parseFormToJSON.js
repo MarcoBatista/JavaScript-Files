@@ -27,7 +27,7 @@ function parseFormToJson(form){
 		tipoDeElemento = "";
 		tipoDeElemento = form.elements[i].type.toString().toLowerCase();
 		
-		if(tipoDeElemento!="submit".toLowerCase() & tipoDeElemento!=="button".toLowerCase()){ 
+		if(tipoDeElemento!="submit".toLowerCase() || tipoDeElemento!="button".toLowerCase()){ 
 			/*guarda numa string com o formato de json o nome 
 			do elemento do formulário e o valor contido no elemento*/
 			if (text_boxs!=0){
