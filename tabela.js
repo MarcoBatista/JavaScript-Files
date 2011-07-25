@@ -28,20 +28,17 @@ function pesquisa(tabelaID, palavra){
 			else
 			{
 				row.cells[col].style.color="";
-			}
-			
-			
+			}	
 		}
-		// Futuramente ocultará linhas que não tenham a ocurrência 
-	/*	if (conta>0){
+		// oculta as linhas que não contém a ocurrência
+		if (conta>0){
 			row.style.display = "inline"
 		}
 		else
 		{
-			row.style.display = "inline"
+			row.style.display = "none"
 		}
 			
-		//row.style.display = display;*/	
 	}
 
 
